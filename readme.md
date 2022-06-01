@@ -2,20 +2,21 @@
 
 # Lab | Cleaning categorical data
 
-For this lab, we will be using the dataset in the Customer Analysis Business Case. This dataset can be found in `files_for_lab` folder. In this lab we will explore categorical data.
+For this lab, we will be using the dataset in the Customer Analysis Business Case. This dataset can be found in `files_for_lab` folder. In this lab we will explore categorical data. You can also continue working on the same jupyter notebook, as from the previous lab. However that is not necessary
 
 ### Instructions
 
 1. Import the necessary libraries if you are starting a new notebook.
-2. Load the continuous and discrete variables into `continuous_df` and `discrete_df` variables.
-3. Plot a correlation matrix, what can you see?
-4. Create a function to plot every discrete variables. Do the same with continuous variables (be careful, you may change the plot type to another one better suited for continuous data).
-5. What can you see in the plots?
-6. Look for outliers in the continuous variables we have found. Hint: There was a good plot to do that.
-7. Have you found outliers? If you have, what should we do with them?
-8. Check nan values per column.
-9. Define a function that differentiate between continuous and discrete variables. Hint: Number of unique values might be useful. Store continuous data into a `continuous` variable and do the same for `discrete` and categorical.
-10. for the categorical data, check if there is some kind of text in a variable so we would need to clean it. Hint: Use the same method you used in step 7. Depending on the implementation, decide what to do with the variables you get.
-11. Get categorical features.
-12. What should we do with the customer id column?
+2. Load the csv. Use the variable "customer_df"
+as customer_df = pd.read_csv()
+3. What should we do with the customer id column?
+4. Load the continuous and discrete variables into `numericals_df` and `categorical_df` variables.
+for eg. numerical_df = customer_df.select_dtypes()
+        categorical_df = customer_df.select_dtypes()
+5. Plot every categorical variable. What can you see in the plots?
+Note that in the previous lab you used a bar plot to plot categorical data, with each unique category in the column on the x-axis and an appropriate measure on the y-axis. However this time you will try a different plot. This time in each plot for the categorical variable you will have, each unique category in the column on the x-axis and the target(which is numerical) on the Y-axis
+6. For the categorical data, check if there is any data cleaning that need to perform. 
+Hint: You can use the function value_counts() on each of hte categorical columns and check what is the representation of different categories in each column. Discuss if this information might in some way be used for data cleaning
+
+
 
