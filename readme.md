@@ -16,4 +16,4 @@ For this lab, we will be using the dataset in the Customer Analysis Business Cas
     ```
 5. Plot every categorical variable. What can you see in the plots? Note that in the previous lab you used a bar plot to plot categorical data, with each unique category in the column on the x-axis and an appropriate measure on the y-axis. However, this time you will try a different plot. This time in each plot for the categorical variable you will have, each unique category in the column on the x-axis and the target(which is numerical) on the Y-axis
 6. For the categorical data, check if there is any data cleaning that need to perform. 
-**Hint**: You can use the function `value_counts()` on each of hte categorical columns and check the representation of different categories in each column. Discuss if this information might in some way be used for data cleaning.
+**Hint**: You can use the function `value_counts()` on each of the categorical columns and check the representation of different categories in each column. Discuss if this information might in some way be used for data cleaning.
