@@ -4,6 +4,17 @@
 
 For this lab, we will be using the dataset in the Customer Analysis Business Case. This dataset can be found in `files_for_lab` folder. In this lab we will explore categorical data.
 
+## Data Analysis Process
+#### Remember the process:
+
+- Case Study
+- **Get data**
+- **Cleaning/Wrangling/EDA**
+- Processing Data
+- Modeling
+ -Validation
+- Reporting
+
 ### Instructions
 
 1. Import the necessary libraries load the data and start a new notebook.
