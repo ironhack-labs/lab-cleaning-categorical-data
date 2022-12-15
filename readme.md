@@ -25,4 +25,4 @@ Using the same data as the previous lab: we_fn_use_c_marketing_customer_value_an
 
 9. Check number of unique values in each column, can they be combined in any way to ease encoding?  Comment your thoughts and make those changes.
 
-10 Save the cleaned catagorical dataframe as categorical.csv   You will use this file again this week.
+10.  Save the cleaned catagorical dataframe as categorical.csv   You will use this file again this week.
